@@ -16,7 +16,7 @@ mot = liste_de_mots_francais[random.randint(0, len(liste_de_mots_francais)-1)]
 
 
 def longueur_du_mot(l,mot):
-   l = int(input("choisir le nombre de lettre"))
+   l = int(input("choisir le nombre dej lettre"))
    mot = liste_de_mots_francais[random.randint(0, len(liste_de_mots_francais)-1)]
    while len(mot) != l:
       mot = liste_de_mots_francais[random.randint(0, len(liste_de_mots_francais)-1)]
