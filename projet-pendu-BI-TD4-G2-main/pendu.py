@@ -67,5 +67,4 @@ while '*' in affichage and nb_erreurs < 11:
         nb_erreurs += 1
             
     affichage = asterix( mot_a_deviner , lettres_deja_proposees )
-    print( '\nMot à deviner : ' , affichage , ' '*10 , 'Nombre d
-
+    print( '\nMot à deviner : ' , affichage , ' '*10 , 'Nombre d\'erreurs maximum :' , 11-nb_erreurs )
